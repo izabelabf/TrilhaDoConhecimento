@@ -1,0 +1,288 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #a587b6;
+    
+    scroll-behavior: smooth; }
+
+section {
+    min-height: 100vh; 
+    padding: 80px 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.capa {
+    background-image: url(imagens/capacapa.jpeg);
+    background-size: cover;
+}
+.imagem-logo{
+    width: 350px;
+}
+section img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 200px;
+}
+
+.video-1{
+
+}
+.servicos-slide {
+    padding: 60px 60px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1400px; 
+    margin: 0 auto;
+    margin-top: 200px;
+    background-image: linear-gradient(#ffff, #d3d0e9,#d9cff5,#443b61)
+}
+
+
+.cartoes-wrapper {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 25px; 
+    margin-left: 40px;
+}
+
+.servico-card {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+.servico-card img {
+    width: 1000%; 
+    display: block; 
+    margin-bottom: 50px;
+    border-radius: 10%;
+}
+
+.servico-card h3 {
+    color: #ffffff; 
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    min-height: 50px; 
+}
+.slide2{
+    background-image: url(imagens/capacapa.jpeg);
+    background-size: cover;
+}
+
+.slide2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.slide2-content {
+    display: flex;
+    align-items: center;      
+    gap: 15px;
+    
+}
+.slide2 li{
+    list-style: none;
+}
+
+
+.slide2-left {
+    flex: 0 0 auto;
+}
+
+.slide2-right {
+    flex: 1;
+    margin-right: 50px;
+}
+.slide2-right li{
+    font-size: 20px;
+    color: #1a1a1a;
+}
+.imagem-slide2 {
+    width: 900px;
+    height: 500px;
+    border-radius: 0px;
+    object-fit: cover;
+    display: block;
+}
+
+.slide3{
+    background-image: linear-gradient(#ffff,#fcfcfd,#efeef1,#e9e3fa,#e5ddfc,#9587bd,#443b61);
+}
+.slide3 li{
+font-size:25px;
+color: #1a1a1a;
+
+}
+
+.imagem-slide3{
+    margin-top: 60px;
+    position: relative;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #322a4d;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover, nav a.active {
+    background: #b8b4f0;
+    border-radius: 4px;
+}
+
+.capa {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.capa h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.capa h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+
+section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+
+section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+
+section ul {
+    list-style: disc;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+section li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.desafio-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    background: white;
+    transition: box-shadow 0.3s;
+}
+
+.desafio-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.conteudo-principal {
+    display: flex;  
+    width: 100%; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.conteudo-principal > div {
+    flex: 1;     
+}
+
+.info-metrics {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 15px; 
+    
+}
+
+
+.conteudo-principal {
+    display: flex; 
+    width: 100%; 
+    align-items: center; 
+    gap: 300px; 
+}
+
+.conteudo-principal > div {
+    flex: 1;     
+}
+
+.slide4 {
+    background-image: url(imagens/imagecapa.png);
+    background-size: cover;
+}
+
+.slide4 ul{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px; 
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.slide4 li{
+    font-size: 50px;
+    color: #03000e;
+}
+
